@@ -1,0 +1,57 @@
+body
+{
+    margin-left: 22%;
+    
+}
+
+.wrapper
+{
+    
+    width: 720px;
+    height: 300px;
+    margin: 50px;
+}
+
+#left, #right, #main
+{
+    height: 100%;
+    float: left;
+}
+#main
+{
+    width: 500px;
+    background: black;
+}
+#right, #left
+{
+    width: 100px;
+    margin-top: 50px;
+}
+
+#left
+{
+    background: url('../img/s1.png') no-repete center;
+    background-size: 70%;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+#right
+{
+    background: url('../img/s2.png') no-repete center;
+    background-size: 70%;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+#mainImg
+{
+    height: 100%;
+}
+
+#main div
+{
+    height: 100%;
+    float: left;
+    background-image: url('../img/img0.jpg');
+}
